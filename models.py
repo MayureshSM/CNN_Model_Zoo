@@ -3,6 +3,7 @@ from torchvision.models import resnet50, alexnet, densenet121,googlenet,inceptio
 from torchvision import transforms
 from torchvision.io import read_image
 import numpy as np
+import matplotlib.pyplot as plt
 
 f=open('Imagenet_class.txt')
 classes=f.read().split('\n')
